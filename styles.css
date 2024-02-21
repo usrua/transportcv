@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  #centeredMenu {
+    
+    background-image: linear-gradient(to right, #4b0082, #ff0000, #1e8b1e, #9400d3, #ff7f00, #0000ff, #ffff00);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    width: 100%;
+    max-width: 400px; /* Опціонально: Встановлює максимальну ширину меню */
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  #centeredMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #centeredMenu ul li {
+    margin-bottom: 20px;
+  }
+
+  #centeredMenu ul li a {
+    color: #DEDDDC;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  #centeredMenu ul li a:hover {
+    color: #000;
+  }

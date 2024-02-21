@@ -1,53 +1,26 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transport CV Графіки</title>
-    <style>
-        body,
-        html {
-            margin: 0;
-            padding: 0;
-            width: 720px;
-            height: 880px;
-            overflow:hidden;
-        }
-
-        iframe {
-            margin-top: -30px;
-            display: flex;
-            width: 720px;
-            height: 940px;
-
-            user-select: none;
-            pointer-events: none;
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            overflow: hidden;
-
-        }
-    </style>
-
-    <!-- <meta http-equiv="refresh" content="15"> -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Menu</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-   
-    <ul>
-        <li><a href="6.html">Графік маршрутки №6</a> </li>
+
+<div id="centeredMenu">
+  <ul>
+
+    <li><a href="6.html">Графік маршрутки №6</a> </li>
         <li><a href="29.html">Графік маршрутки №29</a> </li>
         <li><a href="selo.html">Графік маршрутки Чагор/Молодія/Луківці</a> </li>
         <li><a href="1b.html">Графік маршрутки №1Б</a> </li>
-    </ul>
-<!--
-    <iframe src="Transport%20CV_files/pubhtml.html" scrolling="no"></iframe>
--->
-
-
-</body></html>
+  </ul>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('centeredMenu').style.display = 'block';
+  });
+</script>
+</body>
+</html>

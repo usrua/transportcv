@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
     margin: 0;
   }
   table {
@@ -21,8 +21,6 @@
   .table-container {
     overflow: auto;
     max-height: 80vh; /* Задайте максимальну висоту контейнера */
-    margin-top: 20px; /* Встановіть відстань зверху */
-    margin-bottom: 20px; /* Встановіть відстань знизу */
   }
   th, td {
     border: 1px solid black;
@@ -47,20 +45,29 @@
   @media screen and (max-width: 600px) {
     table {
       width: 95%;
+    margin-top: 5px;
+    margin-bottom: 40px;
     }
   }
-  /* @media screen and (max-height:600px){
+  @media screen and (max-height:600px){
+    table{
+      margin-top: 150px;
+    margin-bottom: 50px;
+    }
     
-    margin-top: 10px;
-    margin-bottom: 10px;
-  } */
+  }
+  @media screen and (min-width:650px){
+    body{
+      height: 100vh;
+    }
+  }
   td{
     font-size: 33px;
   }
 </style>
 </head>
 <body>
-  <div>
+
 <table>
   <tr>
     <th class="corov">КОРОВІЯ</th>
@@ -102,8 +109,8 @@
 
     <td>17:10</td>
   </tr>
-</table></div>
-<div style="margin-top: 10px;">
+</table>
+<div style="margin-block: 10px;padding-bottom: 10px;">
   <a href="index.html">На головну сторінку</a>
   </div>
 </body>

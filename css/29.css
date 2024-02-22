@@ -1,0 +1,217 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ritz .waffle a {
+    color: inherit;
+}
+
+.ritz .waffle .s11 {
+    /* border-bottom: 1px SOLID #000000; */
+    /* border: 1px SOLID #000000; */
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s2 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 8pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s8 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #ffe599;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s6 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #ffe599;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s1 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #ea9999;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 12pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s10 {
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s5 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #783f04;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Arial';
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s0 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #b6d7a8;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 12pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s7 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #a4c2f4;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s3 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #00a933;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 8pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s9 {
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s4 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+
+    border: 1px SOLID #000000;
+    background-color: #a4c2f4;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s12 {
+    /* border-bottom: 1px SOLID #000000; */
+    /* border: 1px SOLID #000000; */
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+td{
+    font-size: 5vw !important;
+}
+td.s2,td.s3,td.s0,td.s1{
+    font-size: 2vw !important;
+}

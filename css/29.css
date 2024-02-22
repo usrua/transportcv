@@ -215,3 +215,9 @@ td{
 td.s2,td.s3,td.s0,td.s1{
     font-size: 2vw !important;
 }
+
+a{
+    font-size: 3vw;
+    line-height: 2;
+    letter-spacing: 0.01em;
+  }

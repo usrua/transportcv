@@ -210,10 +210,10 @@ body{
     padding: 2px 3px 2px 3px;
 }
 td{
-    font-size: 5vw !important;
+    font-size: 7vw !important;
 }
 td.s2,td.s3,td.s0,td.s1{
-    font-size: 2vw !important;
+    font-size: 3.5vw !important;
 }
 
 a{
@@ -221,3 +221,6 @@ a{
     line-height: 2;
     letter-spacing: 0.01em;
   }
+ .s11,.s12.s10{
+    height: 15vh;
+ }

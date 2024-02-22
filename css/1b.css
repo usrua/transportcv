@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+  }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    
+  }
+  .table-container {
+    overflow: auto;
+    max-height: 80vh; /* Задайте максимальну висоту контейнера */
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  .corov{
+    border-color:brown;
+    background-color:     chartreuse;
+  }
+  .calin{
+    border-color:brown;
+    background-color:     rgb(72, 124, 15);
+  }
+  .entuz{
+    border-color:brown;
+    background-color:     rgb(52, 38, 240);
+  }
+  @media screen and (max-width: 600px) {
+    table {
+      width: 95%;
+      margin-top: 5px;
+      margin-bottom: 40px;
+    }
+  }
+  @media screen and (max-height:600px){
+    body{
+      width: 100%;
+    }
+    table{
+      width: 95%;
+      margin-top: 400px;
+      margin-bottom: 90px;
+    }
+    
+  }
+  @media screen and (min-width:650px){
+    body{
+      height: 100vh;
+    }
+  }
+  td{
+    /* font-size: 45px; */
+    font-size: 8vw;
+  }

@@ -54,24 +54,26 @@ body {
     }
     
   }
-  @media screen and (min-width:650px){
+  @media screen and (min-width:700px){
     body{
       height: 200vh;
       
     }
-    table{
-      margin-top: 400px;
-      margin-bottom: 90px;
-    };
+    
+    a{
+      font-size: 3vw;
+      line-height: 2;
+      letter-spacing: 0.01em;
+    }
+
   }
   td{
     /* font-size: 45px; */
     font-size: 8vw;
 
   }
-th.corov {
-    width: 33.33%; /* 1/3 ширини таблиці */
-    white-space: nowrap; /* Забороняє перенос тексту на наступний рядок */
+th,td{
+    width: 10%; /* 1/3 ширини таблиці */
   }
   th.calin, th.entuz {
     height: 33.33%; /* 1/3 ширини таблиці */

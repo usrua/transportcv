@@ -1,0 +1,100 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ritz .waffle a {
+    color: inherit;
+}
+
+.ritz .waffle .s4 {
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 8pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s1 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #2a6099;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 10pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s2 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #00a933;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 9pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s3 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 14pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+
+.ritz .waffle .s0 {
+    /* border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000; */
+    border: 1px SOLID #000000;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'docs-Liberation Sans', Arial;
+    font-size: 12pt;
+    vertical-align: bottom;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 2px 3px 2px 3px;
+}
+td{
+    font-size: 6.8vw !important;
+    
+}
+.s1,.s2{
+    font-size: 3.3vw !important;
+}
+a{
+    font-size: 3vw;
+    line-height: 2;
+    letter-spacing: 0.01em;
+  }

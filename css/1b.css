@@ -56,7 +56,7 @@ body {
   }
   @media screen and (min-width:700px){
     body{
-      height: 200vh;
+      height: 100vh;
       
     }
     
